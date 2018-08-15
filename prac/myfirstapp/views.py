@@ -37,7 +37,7 @@ class StockDetail(APIView):
         if not serializer.is_valid():
             return Response({'serializer': serializer, 'Stock': Stock})
         serializer.save()
-        return redirect('stock-list')
+
 
 
 
