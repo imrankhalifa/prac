@@ -19,4 +19,5 @@ from myfirstapp.views import  Stocklist
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^stocks/',Stocklist.as_view())
+
 ]
